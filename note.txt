@@ -1,0 +1,5 @@
+1. Login page 
+    i. admin Login: admin can add new server (user) , add, remove , edit items.
+    ii. server Login: can add or remove order items, view item descriptions, gemerate bill
+
+2. 
