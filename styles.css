@@ -16,7 +16,8 @@ body {
 
 /* Container styles */
 .container {
-    width: 300px;
+    width: 80%; /* Set a relative width */
+    max-width: 400px; /* Set a maximum width for larger screens */
     margin: 100px auto;
     background-color: #fff;
     border-color: #04AA6D;
@@ -30,6 +31,13 @@ body {
     text-align: center;
     margin-bottom: 20px;
     color: #04AA6D;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: none; /* Remove the maximum width restriction */
+        margin: 50px auto; /* Adjust margin for smaller screens */
+    }
 }
 
 /* Text field styles */
